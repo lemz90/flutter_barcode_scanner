@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.lemz90.flutter_barcode_scanner'
     compileSdkVersion 30
 
     defaultConfig {
